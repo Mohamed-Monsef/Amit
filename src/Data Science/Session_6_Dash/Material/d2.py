@@ -22,7 +22,6 @@ app.layout = html.Div([
     dcc.Graph(id='pie-chart')
 ])
 
-# FIX 1: Changed @app.fallback to @app.callback
 @app.callback(
     Output('pie-chart', "figure"),
     Input("column-dropdown", "value")
@@ -30,7 +29,6 @@ app.layout = html.Div([
 def update_pie(selected_col):
     grouped = df.groupby("Area")[selected_col].sum().reset_index()
     
-    # FIX 2: Changed px.Pie to px.pie (case-sensitive)
     fig = px.pie(
         grouped,
         names="Area", 
@@ -40,7 +38,6 @@ def update_pie(selected_col):
         color_discrete_sequence=px.colors.qualitative.Set2
     )
     
-    # FIX 3: Added return statement
     return fig
 
 if __name__ == "__main__":
