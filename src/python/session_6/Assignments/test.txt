@@ -1,5 +1,0 @@
-This is a Test of a file.
-1
-2
-3
-Test.
