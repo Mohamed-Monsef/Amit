@@ -1,0 +1,12 @@
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: nbformat in c:\users\muham\appdata\roaming\python\python312\site-packages (5.1.2)
+Requirement already satisfied: ipython-genutils in c:\users\muham\appdata\roaming\python\python312\site-packages (from nbformat) (0.2.0)
+Requirement already satisfied: traitlets>=4.1 in c:\users\muham\appdata\roaming\python\python312\site-packages (from nbformat) (5.14.3)
+Requirement already satisfied: jsonschema!=2.5.0,>=2.4 in c:\users\muham\appdata\roaming\python\python312\site-packages (from nbformat) (4.26.0)
+Requirement already satisfied: jupyter-core in c:\users\muham\appdata\roaming\python\python312\site-packages (from nbformat) (5.9.1)
+Requirement already satisfied: attrs>=22.2.0 in c:\users\muham\appdata\roaming\python\python312\site-packages (from jsonschema!=2.5.0,>=2.4->nbformat) (25.4.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in c:\users\muham\appdata\roaming\python\python312\site-packages (from jsonschema!=2.5.0,>=2.4->nbformat) (2025.9.1)
+Requirement already satisfied: referencing>=0.28.4 in c:\users\muham\appdata\roaming\python\python312\site-packages (from jsonschema!=2.5.0,>=2.4->nbformat) (0.37.0)
+Requirement already satisfied: rpds-py>=0.25.0 in c:\users\muham\appdata\roaming\python\python312\site-packages (from jsonschema!=2.5.0,>=2.4->nbformat) (0.30.0)
+Requirement already satisfied: typing-extensions>=4.4.0 in c:\users\muham\appdata\roaming\python\python312\site-packages (from referencing>=0.28.4->jsonschema!=2.5.0,>=2.4->nbformat) (4.15.0)
+Requirement already satisfied: platformdirs>=2.5 in c:\users\muham\appdata\roaming\python\python312\site-packages (from jupyter-core->nbformat) (4.5.1)
